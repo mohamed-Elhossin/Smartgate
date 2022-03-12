@@ -499,7 +499,7 @@ section {
 }
 
 .section-title {
-  text-align: center;
+  text-align: right;
   padding-bottom: 30px;
 }
 
@@ -511,13 +511,13 @@ section {
   color: #222222;
 }
 
-.section-title h2::before,
 .section-title h2::after {
   content: "";
-  width: 50px;
-  height: 2px;
-  background: #F4A825;
+  width: 3px;
+  height: 55px;
+  background: #0fb3ff;
   display: inline-block;
+  position: absolute;
 }
 
 .section-title h2::before {
@@ -737,7 +737,12 @@ section {
   transition: all 0.3s;
   z-index: -1;
 }
+.services .imgIcone{
 
+  width: 100px;
+  margin: 10px 4px 10px 0px;
+
+}
 .services .icon-box:hover::before {
   background: #F4A825;
   right: 0;
@@ -1684,4 +1689,21 @@ section {
 #footer button {
   border-radius: 20px 0px 0px 20px;
 
+}
+
+
+body{
+  font-family: 'Cairo', sans-serif !important;
+}
+.myModel{
+  text-align: right !important;
+}
+
+.myModel input{
+  text-align: right !important;
+  background-color: #ccc;
+  margin: 20px 0px;
+}
+.myModel .modal-dialog{
+max-width: 650px !important;
 }
